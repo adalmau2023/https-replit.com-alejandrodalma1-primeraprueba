@@ -1,0 +1,30 @@
+from algo1 import*
+a=input_int("ingrese un numero ")
+b=input_int("ingrese un segundo numero ")
+def decre(a,b):
+
+ c=a+b
+ print("la suma es" ,c)
+ if c<=50:
+        n=0
+        while(n<c):
+           c=c-2
+           print("decenso",c)
+           n=2-n
+
+ else:
+     if c>50:
+        n=0
+        while(n<c):
+              c=c-5
+              print("descen",c)
+              n=5-n
+
+decre(a,b)
+a=input_int("ingrese un numero ")
+b=input_int("ingrese un segundo numero ")
+d=a*b
+if d==0:
+  print("esta muy bien")
+else:
+  print("salio bien")
